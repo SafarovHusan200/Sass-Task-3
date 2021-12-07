@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: lavender;
+}
+
+body .wrapper {
+  width: 1100px;
+  height: 600px;
+  margin: 0 auto;
+  margin-bottom: 0;
+}
+
+body .wrapper header {
+  width: 100%;
+  height: 100px;
+}
+
+body .wrapper header ul {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .wrapper header ul li {
+  list-style: none;
+}
+
+body .wrapper header ul li:nth-child(1) {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+body .wrapper header ul li:nth-child(2) a {
+  display: inline-block;
+  text-decoration: none;
+  width: 100px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: #000;
+  text-align: center;
+  vertical-align: middle;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .wrapper section {
+  height: 500px;
+}
+
+body .wrapper section .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+body .wrapper section .container .box {
+  position: relative;
+  overflow: hidden;
+  width: 49%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+body .wrapper section .container .box:nth-child(1) {
+  background-color: #fff;
+}
+
+body .wrapper section .container .box:nth-child(1) .live {
+  display: inline-block;
+  width: 120px;
+  height: 35px;
+  background-color: #f30000;
+  border-radius: 5px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+body .wrapper section .container .box:nth-child(1) .live b {
+  width: 13px;
+  height: 13px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+body .wrapper section .container .box:nth-child(1) .play {
+  position: absolute;
+  top: 27%;
+  left: 41%;
+  width: 100px;
+  cursor: pointer;
+}
+
+body .wrapper section .container .box:nth-child(1) h2 {
+  margin: 15px 0 10px 25px;
+}
+
+body .wrapper section .container .box:nth-child(1) h2 q {
+  font-size: 25px;
+}
+
+body .wrapper section .container .box:nth-child(1) .name {
+  margin: 0 0 0 30px;
+  font-size: 23px;
+}
+
+body .wrapper section .container .box:nth-child(1) .video {
+  margin: 10px 0 0 30px;
+  font-size: 14px;
+  color: #777676;
+}
+
+body .wrapper section .container .box:nth-child(1) .tarmoq {
+  width: 110px;
+  height: 50px;
+  position: absolute;
+  right: 0px;
+  bottom: 10px;
+}
+
+body .wrapper section .container .box:nth-child(1) .tarmoq img {
+  background-color: #7c7c7c;
+  width: 35px;
+  height: 35px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+body .wrapper section .container .box:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
+}
+
+body .wrapper section .container .box:nth-child(2) .item {
+  border-radius: 5px;
+  width: 47.5%;
+  height: 47%;
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
+}
+
+body .wrapper section .container .box:nth-child(2) .item:nth-child(3), body .wrapper section .container .box:nth-child(2) .item:nth-child(4) {
+  margin-top: 30px;
+}
+
+body .wrapper section .container .box:nth-child(2) .item .anons {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 75px;
+  height: 20px;
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 0 0 0 5px;
+}
+
+body .wrapper section .container .box:nth-child(2) .item .anons img {
+  width: 14px;
+  margin-right: 8px;
+}
+
+body .wrapper section .container .box:nth-child(2) .item .play {
+  position: absolute;
+  top: 20%;
+  left: 38%;
+}
+
+body .wrapper section .container .box:nth-child(2) .item .play img {
+  width: 65px;
+}
+
+body .wrapper section .container .box:nth-child(2) .item h3 {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  margin: 7px 0 0 15px;
+}
+
+body .wrapper section .container .box:nth-child(2) .item p {
+  position: relative;
+  top: 5px;
+  margin: 7px 0 0 15px;
+  font-size: 14px;
+  padding-left: 22px;
+  color: #838383;
+}
+
+body .wrapper section .container .box:nth-child(2) .item p .like {
+  margin-right: 30px;
+}
+
+body .wrapper section .container .box:nth-child(2) .item p .like img {
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+
+body .wrapper section .container .box:nth-child(2) .item p .like .n125 {
+  margin-left: 0;
+}
+
+body .wrapper section .container .box:nth-child(2) .item p .dislike img {
+  margin-right: 15px;
+  position: absolute;
+  top: 1px;
+}
+
+body .wrapper section .container .box:nth-child(2) .item p .dislike .n2 {
+  margin-left: 25px;
+}
+
+body .wrapper section .container .box:nth-child(2) .item p .open {
+  margin-left: 20px;
+}
+
+body .wrapper section .container .box:nth-child(2) .item p .open img {
+  margin-right: 15px;
+  position: absolute;
+  top: 0px;
+  left: 165px;
+}
+
+body .wrapper section .container .box:nth-child(2) .item p .open .n1500 {
+  margin-left: 55px;
+}
+/*# sourceMappingURL=style.css.map */
